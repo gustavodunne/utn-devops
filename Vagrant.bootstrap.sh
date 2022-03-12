@@ -48,7 +48,7 @@ if [ ! -d "$APP_PATH" ]; then
 	sudo mkdir /var/www
 	echo "clono el repositorio"
 	cd $APACHE_ROOT
-	sudo git clone https://github.com/Fichen/utn-devops-app.git
+	sudo git clone https://github.com/gusanomaly/utn-devops-app.git
 	cd $APP_PATH
 	sudo git checkout unidad-1
 fi
